@@ -22,4 +22,7 @@ int main(){
 	int upah=20;
 	double biayaPasang=luasRumah * upah;
 	cout <<"Biaya Pasang (Rp)  :" << biayaPasang <<endl;
+	
+	double totalBiaya=biayaParket+biayaPasang;
+	cout <<"Total Bayar (Rp)   :" << totalBiaya <<endl;
 }
