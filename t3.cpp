@@ -3,6 +3,9 @@ using namespace std;
 
 int main(){
 	double ton=35273.92;
-	doouble berat;
+	double berat;
 	cin >> berat;
+	double ounce = 1/ton;
+	double beratTon = berat*ounce;
+
 }
