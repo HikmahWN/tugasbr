@@ -11,6 +11,11 @@ int main(){
 	int b=8;
 	double luasBox=lp*8;
 	cout <<"Luas 1 box Parket  :" << luasBox <<" m2"<<endl;
+	
 	double jumlahBoxParket=luasRumah/luasBox;
 	cout <<"jumlah box parket  :" << jumlahBoxParket <<" m2"<<endl;
+	
+	int harga1Box=500;
+	double biayaParket= harga1Box *jumlahBoxParket;
+	cout <<"Biaya Parket (Rp)  :" << biayaParket <<" m2"<<endl;
 }
