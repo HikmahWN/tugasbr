@@ -11,4 +11,6 @@ int main(){
 	int b=8;
 	double luasBox=lp*8;
 	cout <<"Luas 1 box Parket  :" << luasBox <<" m2"<<endl;
+	double jumlahBoxParket=luasRumah/luasBox;
+	cout <<"jumlah box parket  :" << jumlahBoxParket <<" m2"<<endl;
 }
